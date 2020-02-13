@@ -3,7 +3,7 @@ Custom log pattern for slf4j to provide sub-millisecond timestamps.
 
 We provide this when the pattern starts with **%{WEIRDO_MICROS}** and
 we replace it with the ISO UTC timestamp to microsecond precision:
-*HH:MM:SS.SSSSSS*
+`HH:MM:SS.SSSSSSZ`
 
 Add/replace corresponding lines in `log4j.properties`:
 
